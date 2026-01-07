@@ -14,7 +14,11 @@ box-sizing: border-box;
 /* common class */
 header{
   background-color: #FFF8F3;
-  padding: 51px;
+  padding-top:50px;
+  background-image: url(images/developer.png),url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left,right bottom;
+  
 }
 
 
@@ -56,4 +60,135 @@ nav .menu a{
   border-radius: 5px;
   border: none;
 }
+ .white{
+  background-color: white;
+  color:#FD6E0A ;
+  border: 1px solid #FD6E0A;
+ }
+.section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 46px 39px 0 230px;
+}
+.sec{
+  max-width: 585px;
+}
+ .sec h2{
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600px;
+ }
+ .sec h1{
+  color: black;
+  font-size: 85px;
+  font-weight: 700px;
+  margin-bottom: 20px;
+ }
+ .sec p{
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 30px;
+ }
+.bottom {
+  display: flex;
+  gap: 47px;
+  margin: 30px;
+}
+
+
+.section .image img{
+  max-width: 585pX;
+  vertical-align: middle;
+}
+
+#about{
+  
+  padding-top: 130px;
+
+
+}
+ .about_section{
+  background-color: #FFF8F3;
+  max-width: 71%;
+  width: 1140px;
+  height: 550px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 131px 156px;
+  border-radius: 10px;
+  
+}
+.about_heading{
+  max-width: 827px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about_heading h1{
+  font-size: 35px;
+  font-weight: 500px;
+  text-align: center;
+}
+.about_heading p{
+  font-size: 18px;
+  font-weight: 400px;
+  color: #757575;
+  line-height: 30px;
+  margin: 30px 0 30px;
+}
+ .box{
+  display: flex;
+  justify-content: space-around;
+}
+ .footer p{
+  color: #757575;
+  font-size: 20px;
+
+}
+.footer h4{
+  color: #474747;
+  font-size: 20px;
+  
+}
+#skill{
+  padding-top: 130px;
+}
+.skill_section{
+  
+  max-width: 71%;
+  width: 1140px;
+  height: 550px;
+  margin: 0 auto;
+  align-items: center;
  
+  border-radius: 10px;
+}
+.skill-card{
+  display: flex;
+  
+  gap: 24px;
+ 
+  
+}
+.card{
+  box-shadow: 0 6px 50px 0 #00000006 ;
+   padding: 30px;
+   max-width: 267px;
+  
+}
+.card img{
+  max-width: 44px;
+  margin-bottom: 30px;
+}
+.card h1{
+  font-size: 20px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+.card p{
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
